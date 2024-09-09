@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+
+<style>
+    .wrapper a {
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+
+    .wrapper button {
+        margin-bottom: 25px;
+        width: 300px;
+        height: 45px;
+    }
+</style>
+
+<body class="m-page">
+
+    <div class="wrapper" style="padding: 50px;">
+        <button data-modal="normalModal" style="border: 2px solid #000;margin-bottom: 20px;">
+            Modal Window - Normal
+        </button>
+        <button data-modal="dangerModal" style="border: 2px solid #000;margin-bottom: 20px;">
+            Modal Window - Danger
+        </button>
+        <button data-modal="successModal" style="border: 2px solid #000;margin-bottom: 20px;">
+            Modal Window - Success
+        </button>
+        <button data-modal="warningModal" style="border: 2px solid #000;margin-bottom: 20px;">
+            Modal Window - Warning
+        </button>
+        <button data-modal="infoModal" style="border: 2px solid #000;margin-bottom: 20px;">
+            Modal Window - Info
+        </button>
+
+        <button data-modal="dangerNotification" style="border: 2px solid #000;margin-bottom: 20px;">
+            Notification - Danger
+        </button>
+        <button data-modal="successNotification" style="border: 2px solid #000;margin-bottom: 20px;">
+            Notification - Success
+        </button>
+        <button data-modal="warningNotification" style="border: 2px solid #000;margin-bottom: 20px;">
+            Notification - Warning
+        </button>
+        <button data-modal="infoNotification" style="border: 2px solid #000;margin-bottom: 20px;">
+            Notification - Info
+        </button>
+        <hr style="display: block; margin-bottom: 20px;">
+        <a href="dashboard.html" style="display: block; margin-bottom: 20px;">
+            Дашборд
+        </a>
+        <hr style="display: block; margin-bottom: 20px;">
+        <a href="index.html" style="display: block; margin-bottom: 20px;">
+            Главная
+        </a>
+        <a href="login.html" style="display: block; margin-bottom: 20px;">
+            Авторизация
+        </a>
+        <a href="courses.html" style="display: block; margin-bottom: 20px;">
+            Курсы
+        </a>
+        <a href="courses2.html" style="display: block; margin-bottom: 20px;">
+            Курсы 2
+        </a>
+        <a href="course.html" style="display: block; margin-bottom: 20px;">
+            Курс
+        </a>
+        <a href="news.html" style="display: block; margin-bottom: 20px;">
+            Новости
+        </a>
+        <a href="news-item.html" style="display: block; margin-bottom: 20px;">
+            Новость
+        </a>
+        <a href="programs.html" style="display: block; margin-bottom: 20px;">
+            Программы
+        </a>
+        <a href="program-item.html" style="display: block; margin-bottom: 20px;">
+            Программа
+        </a>
+        <a href="subjects.html" style="display: block; margin-bottom: 20px;">
+            Субъекты
+        </a>
+        <a href="subject-item.html" style="display: block; margin-bottom: 20px;">
+            Субъект
+        </a>
+        <a href="events.html" style="display: block; margin-bottom: 20px;">
+            Мероприятия
+        </a>
+        <a href="event-item.html" style="display: block; margin-bottom: 20px;">
+            Мероприятие
+        </a>
+        <a href="contest.html" style="display: block; margin-bottom: 20px;">
+            Конкурсы
+        </a>
+        <a href="contest-item.html" style="display: block; margin-bottom: 20px;">
+            Конкурс
+        </a>
+        <a href="expertise.html" style="display: block; margin-bottom: 20px;">
+            Экспертиза ДПП
+        </a>
+        <a href="info.html" style="display: block; margin-bottom: 20px;">
+            Порядок проведения экспертизы
+        </a>
+        <a href="info2.html" style="display: block; margin-bottom: 20px;">
+            Описание сферы деятельности
+        </a>
+        <a href="404.html" style="display: block; margin-bottom: 20px;">
+            404
+        </a>
+        <a href="ui.html" style="display: block; margin-bottom: 20px;">
+            UI
+        </a>
+
+
+
+
+
+
+    </div>
+
+    <div class="modal" id="normalModal">
+        <div class="modal__bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <div class="modal__top">
+                    <div class="modal__title">
+                        <div class="text20 medium-text gray90-text">
+                            Modal Window
+                        </div>
+                    </div>
+                    <button class="modal__close _close-modal">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25 7L7 25" stroke="#007DB6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M25 25L7 7" stroke="#007DB6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="modal__text">
+                    <div class="text20 gray70-text">
+                        Be sure to monitor contrast ratios as you customize colors. As shown below, we’ve added three contrast ratios to each of the main colors—one for the swatch’s current colors, one for against white, and one for against black.
+                    </div>
+                </div>
+                <div class="modal__nav">
+                    <button class="m-btn m-btn-primary  _close-modal">
+                        <span>Okey</span>
+                    </button>
+                    <button class="m-btn m-btn-secondary  _close-modal">
+                        <span>Cancel</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal2 _danger" id="dangerModal">
+        <div class="modal__bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <img src="img/danger.svg" alt="" class="modal__icon">
+                <div class="modal__top">
+                    <div class="modal__title">
+                        <div class="text20 medium-text gray90-text">
+                            Modal Window
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal__text">
+                    <div class="text20 gray70-text">
+                        Be sure to monitor contrast ratios as you customize colors. As shown below, we’ve added three contrast ratios to each of the main colors—one for the swatch’s current colors, one for against white, and one for against black.
+                    </div>
+                </div>
+
+                <div class="modal__nav">
+                    <button class="m-btn m-btn-primary _danger _close-modal">
+                        <span>Okey</span>
+                    </button>
+                    <button class="m-btn m-btn-secondary _danger _close-modal">
+                        <span>Cancel</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal2 _success" id="successModal">
+        <div class="modal__bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <img src="img/success.svg" alt="" class="modal__icon">
+                <div class="modal__top">
+                    <div class="modal__title">
+                        <div class="text20 medium-text gray90-text">
+                            Modal Window
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal__text">
+                    <div class="text20 gray70-text">
+                        Be sure to monitor contrast ratios as you customize colors. As shown below, we’ve added three contrast ratios to each of the main colors—one for the swatch’s current colors, one for against white, and one for against black.
+                    </div>
+                </div>
+
+                <div class="modal__nav">
+                    <button class="m-btn m-btn-primary _success _close-modal">
+                        <span>Okey</span>
+                    </button>
+                    <button class="m-btn m-btn-secondary _success _close-modal">
+                        <span>Cancel</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal2 _warning" id="warningModal">
+        <div class="modal__bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <img src="img/warning2.svg" alt="" class="modal__icon">
+                <div class="modal__top">
+                    <div class="modal__title">
+                        <div class="text20 medium-text gray90-text">
+                            Modal Window
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal__text">
+                    <div class="text20 gray70-text">
+                        Be sure to monitor contrast ratios as you customize colors. As shown below, we’ve added three contrast ratios to each of the main colors—one for the swatch’s current colors, one for against white, and one for against black.
+                    </div>
+                </div>
+
+                <div class="modal__nav">
+                    <button class="m-btn m-btn-primary _warning _close-modal">
+                        <span>Okey</span>
+                    </button>
+                    <button class="m-btn m-btn-secondary _warning _close-modal">
+                        <span>Cancel</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal2 _info" id="infoModal">
+        <div class="modal__bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <img src="img/info.svg" alt="" class="modal__icon">
+                <div class="modal__top">
+                    <div class="modal__title">
+                        <div class="text20 medium-text gray90-text">
+                            Modal Window
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal__text">
+                    <div class="text20 gray70-text">
+                        Be sure to monitor contrast ratios as you customize colors. As shown below, we’ve added three contrast ratios to each of the main colors—one for the swatch’s current colors, one for against white, and one for against black.
+                    </div>
+                </div>
+
+                <div class="modal__nav">
+                    <button class="m-btn m-btn-primary _info _close-modal">
+                        <span>Okey</span>
+                    </button>
+                    <button class="m-btn m-btn-secondary _info _close-modal">
+                        <span>Cancel</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="notification modal modal2 _danger" id="dangerNotification">
+        <div class="modal__bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <img src="img/danger.svg" alt="" class="modal__icon">
+                <div class="modal__top">
+                    <div class="modal__title">
+                        <div class="text20 medium-text gray90-text">
+                            Modal Window
+                        </div>
+                    </div>
+
+                    <button class="modal__close _close-modal">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.75 5.25L5.25 18.75" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M18.75 18.75L5.25 5.25" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="modal__text">
+                    <div class="text20 gray70-text">
+                        Be sure to monitor contrast ratios as you customize colors. As shown below, we’ve added three contrast ratios to each of the main colors—one for the swatch’s current colors, one for against white, and one for against black.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="notification modal modal2 _success" id="successNotification">
+        <div class="modal__bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <img src="img/success.svg" alt="" class="modal__icon">
+                <div class="modal__top">
+                    <div class="modal__title">
+                        <div class="text20 medium-text gray90-text">
+                            Modal Window
+                        </div>
+                    </div>
+
+                    <button class="modal__close _close-modal">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.75 5.25L5.25 18.75" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M18.75 18.75L5.25 5.25" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="modal__text">
+                    <div class="text20 gray70-text">
+                        Be sure to monitor contrast ratios as you customize colors. As shown below, we’ve added three contrast ratios to each of the main colors—one for the swatch’s current colors, one for against white, and one for against black.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="notification modal modal2 _warning" id="warningNotification">
+        <div class="modal__bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <img src="img/warning2.svg" alt="" class="modal__icon">
+                <div class="modal__top">
+                    <div class="modal__title">
+                        <div class="text20 medium-text gray90-text">
+                            Modal Window
+                        </div>
+                    </div>
+
+                    <button class="modal__close _close-modal">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.75 5.25L5.25 18.75" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M18.75 18.75L5.25 5.25" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="modal__text">
+                    <div class="text20 gray70-text">
+                        Be sure to monitor contrast ratios as you customize colors. As shown below, we’ve added three contrast ratios to each of the main colors—one for the swatch’s current colors, one for against white, and one for against black.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="notification modal modal2 _info" id="infoNotification">
+        <div class="modal__bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <img src="img/info.svg" alt="" class="modal__icon">
+                <div class="modal__top">
+                    <div class="modal__title">
+                        <div class="text20 medium-text gray90-text">
+                            Modal Window
+                        </div>
+                    </div>
+
+                    <button class="modal__close _close-modal">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.75 5.25L5.25 18.75" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M18.75 18.75L5.25 5.25" stroke="#424242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="modal__text">
+                    <div class="text20 gray70-text">
+                        Be sure to monitor contrast ratios as you customize colors. As shown below, we’ve added three contrast ratios to each of the main colors—one for the swatch’s current colors, one for against white, and one for against black.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
